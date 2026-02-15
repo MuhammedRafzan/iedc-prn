@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#00A651" />
+    
+    <!-- SEO Meta Tags -->
+    <title>IEDC PRN Kollam | Innovation & Entrepreneurship Development Cell | KTU Hackathons & Workshops</title>
+    <meta name="description" content="IEDC PRN - Premier Innovation Hub at PRN College Kollam. Join hackathons, startup workshops, tech expos for KTU engineers. Build. Innovate. Launch." />
+    <meta name="keywords" content="IEDC PRN, Kollam hackathon, KTU startup, Kerala tech events, engineering workshops, innovation cell, entrepreneurship Kerala, PRN College" />
+    <meta name="author" content="IEDC PRN" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://iedcprn.in/" />
+    <meta property="og:title" content="IEDC PRN - Ignite Innovation in Kollam" />
+    <meta property="og:description" content="Hackathons, Workshops, Expos for KTU Engineers. Join 1000+ innovators!" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="IEDC PRN - Ignite Innovation" />
+    <meta name="twitter:description" content="Premier Innovation Hub at PRN College Kollam" />
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              kerala: {
+                50: '#e6fff0',
+                100: '#b3ffd6',
+                200: '#80ffbb',
+                300: '#4dffa1',
+                400: '#1aff86',
+                500: '#00A651',
+                600: '#008c44',
+                700: '#007337',
+                800: '#00592b',
+                900: '#00401e',
+              },
+              accent: {
+                orange: '#FF6B35',
+                blue: '#00D9FF',
+                pink: '#FF1493',
+                yellow: '#FFD700',
+              }
+            },
+            fontFamily: {
+              poppins: ['Poppins', 'sans-serif'],
+              space: ['Space Grotesk', 'sans-serif'],
+            },
+            animation: {
+              'float': 'float 6s ease-in-out infinite',
+              'glow': 'glow 2s ease-in-out infinite',
+              'slide-up': 'slideUp 0.5s ease-out',
+              'fade-in': 'fadeIn 0.5s ease-out',
+              'bounce-slow': 'bounce 3s infinite',
+              'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'gradient': 'gradient 8s linear infinite',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-20px)' },
+              },
+              glow: {
+                '0%, 100%': { boxShadow: '0 0 20px rgba(0, 166, 81, 0.5)' },
+                '50%': { boxShadow: '0 0 40px rgba(0, 166, 81, 0.8)' },
+              },
+              slideUp: {
+                '0%': { transform: 'translateY(30px)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              },
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              gradient: {
+                '0%': { backgroundPosition: '0% 50%' },
+                '50%': { backgroundPosition: '100% 50%' },
+                '100%': { backgroundPosition: '0% 50%' },
+              },
+            },
+          },
+        },
+      }
+    </script>
+</head>
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+</body>
+</html>
