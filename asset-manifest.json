@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MuhammedRafzan/iedc-prn/static/css/main.54ac147e.css",
+    "main.js": "/MuhammedRafzan/iedc-prn/static/js/main.e6276ea2.js",
+    "static/js/838.49ea0a8e.chunk.js": "/MuhammedRafzan/iedc-prn/static/js/838.49ea0a8e.chunk.js",
+    "index.html": "/MuhammedRafzan/iedc-prn/index.html",
+    "main.54ac147e.css.map": "/MuhammedRafzan/iedc-prn/static/css/main.54ac147e.css.map",
+    "main.e6276ea2.js.map": "/MuhammedRafzan/iedc-prn/static/js/main.e6276ea2.js.map",
+    "838.49ea0a8e.chunk.js.map": "/MuhammedRafzan/iedc-prn/static/js/838.49ea0a8e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54ac147e.css",
+    "static/js/main.e6276ea2.js"
+  ]
+}
